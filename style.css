@@ -12,4 +12,21 @@ button{
    background-color: black;
    color: pink;
    font-family: "Nerko One", system-ui;
+   }
+     
+   .passo{
+      display: none;
+}
+
+.passo.ativo{
+   display: block;
+}
+
+main{
+   text-align: center;
+   max-width: 90%;
+   
+   img{
+      max-width: 80%;
+   }
 }
